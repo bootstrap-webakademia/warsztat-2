@@ -40,16 +40,6 @@
   background-color: #efefef;
 }
 
-[data-component="navbar"]:empty:after {
-  position: absolute;
-  display: block;
-  content: 'A tutaj wstawimy wyszukiwarkę';
-  padding: 5px 20px;
-  top: 0;
-  right: 0;
-  border: 2px dotted black;
-}
-
 [data-component="navbar-inverse"]:empty:before {
   padding: 20px 0;
   background-color: #666;
